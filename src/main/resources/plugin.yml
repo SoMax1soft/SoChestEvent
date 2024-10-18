@@ -1,0 +1,14 @@
+name: SoChestEvent
+main: so.max1soft.chestevent.Main
+version: 1.2
+depend: [DecentHolograms,Essentials]
+author: "SoMax1soft"
+description: "@MAX1SOFT"
+commands:
+  sochestevent:
+    description: "Форсирование ивента"
+    usage : /sochestevent start
+permissions:
+  sochestevent.command:
+    description: "Запуск ивента"
+    default: op
